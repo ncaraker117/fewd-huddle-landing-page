@@ -18,6 +18,10 @@ color: white;
 }
 
 /*Footer Styling */
+#blue-wavy-line {
+  margin: -4px;
+}
+
 footer {
 background-color: hsl(192, 100%, 9%);
 position: absolute;
