@@ -5,18 +5,50 @@
   padding: 0;
 }
 
-/* Text Styles */
+/* Basic styling */
 body {
   font-family: 'Open-Sans', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Poppins', sans-serif;
 }
+h5 {
+  font-weight: bold;
+}
 
-
-h3{
+/* Header Styling */
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+.header-button {
+  font-size: 1em;
+  color: #ff52bf;
+  background-color: #fff;
+  border-radius: 10em;
+  border: solid 1px #ff52bf;
+  padding: 1em 3em;
+  transition: all 200ms linear;
+}
+.header-button:hover {
+  color: #fff;
+  background-color: #ff52bf;
+}
+
+
+/* CTA Styling */
+.cta-button {
+  font-size: 1em;
+  color: #fff;
+  background-color: #ff52bf;
+  border: solid 2px #ff52bf;
+  border-radius: 10em;
+  padding: 1.25em 5em;
+  transition: all 200ms linear;
+}
+.cta-button:hover {
+  color: #ff52bf ;
+  background-color: #fff;
 }
 
 #Get-Started-Button {
@@ -28,6 +60,26 @@ padding: 5px 10px;
 background-color: hsl(322, 100%, 66%);
 font-weight: bold;
 color: white;
+}
+
+
+/* Value Prop Styling */
+#grow, #flow, #users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value-img {
+  max-width: 25em;
+  height: auto;
+}
+.value-txt-container, .value-img-container {
+  width: 50%;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
 }
 
 /*Footer Styling */
@@ -45,19 +97,15 @@ background-position: bottom;
 }
 
 .left-section-footer {
-width: 45%
+width: 45%;
 display: flex;
 flex-direction: column;
 }
 
 .right-section-footer{
-  width:55%
+  width: 55%;
   display:flex;
   flex-direction: column;
-}
-
-h5 {
-  font-weight: bold;
 }
 
 input[type="email"] {
