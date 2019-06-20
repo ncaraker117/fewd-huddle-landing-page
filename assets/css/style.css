@@ -86,9 +86,12 @@ color: white;
 #blue-wavy-line {
   margin: -4px;
 }
-
+#phone-icon {
+  max-width: 20px;
+  max-height: 20px;
+}
 footer {
-  color: white;
+color: white;
 background-color: hsl(192, 100%, 9%);
 position: absolute;
 width:100%;
