@@ -68,6 +68,11 @@ color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px;
+}
+#grow, #users {
+  background-color: #F6FBFF;
+  margin-top: -10px;
 }
 .value-img {
   max-width: 25em;
