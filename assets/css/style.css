@@ -9,7 +9,7 @@
 body {
   font-family: 'Open-Sans', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h6 {
   font-family: 'Poppins', sans-serif;
   color: #00252e;
 }
@@ -17,7 +17,7 @@ h3 {
   font-size: 1.5em;
 }
 h5 {
-  font-weight: bold;
+  font-family: inherit;
 }
 
 /* Spacing */
@@ -98,6 +98,7 @@ h1 {
   border: solid 2px #ff52bf;
   border-radius: 10em;
   padding: 1.25em 5em;
+  margin: 24px;
   transition: all 200ms linear;
 }
 .cta-button:hover {
@@ -136,6 +137,7 @@ color: white;
 }
 
 .cta-section {
+  margin: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -175,19 +177,21 @@ width: 45%;
 }
 
 input[type="email"] {
-  border-radius: 8px;
+  border-radius: 4px;
   flex-grow: 2;
   height: 4vh;
-  width: 21%;
+  width: 40%;
   margin-right: 1rem;
 }
 
 input[type="submit"] {
   border-radius: 5px;
+  border: none;
   font-size: 0.8em;
+  font-weight: bold;
   flex-grow: 1;
-  height: 30px;
-  width: 12%;
+  height: 28px;
+  width: 17%;
   color: white;
   background-color:hsl(322, 100%, 66%)
 }
