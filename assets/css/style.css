@@ -153,6 +153,18 @@ color: white;
   max-height: 20px;
 }
 
+#email-icon {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+#icons {
+  max-width: 80px;
+  max-height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
 display: flex;
 justify-content: space-between;
