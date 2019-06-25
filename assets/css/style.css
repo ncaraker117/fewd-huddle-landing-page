@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Poppins', sans-serif;
   color: #00252e;
 }
+h3 {
+  font-size: 1.5em;
+}
 h5 {
   font-weight: bold;
 }
@@ -89,7 +92,6 @@ h1 {
 
 /* CTA Styling */
 .cta-button {
-  max-width: 25%;
   font-size: 1em;
   color: #fff;
   background-color: #ff52bf;
@@ -136,6 +138,7 @@ color: white;
 .cta-section {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 /*Footer Styling */
