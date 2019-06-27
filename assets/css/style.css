@@ -159,10 +159,15 @@ color: white;
 }
 
 #icons {
-  max-width: 80px;
+  font-size: x-large;
+  max-width: 145px;
   max-height: 80px;
   display: flex;
   justify-content: space-around;
+}
+
+#lorem-ipsum {
+  padding: 17px;
 }
 
 footer {
